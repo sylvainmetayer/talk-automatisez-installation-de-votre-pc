@@ -8,17 +8,24 @@
 
 ---
 
-## Avantages
+## Avantages / Inconvénients
+
+|Objectif|État|
+|---|---|
+|Gérer mes fichiers de configuration|✅|
+|Gérer les logiciels installés|❌|
+|Versionnable|✅|
+|Facilement maintenable|❌|
+|Gérer mon poste de travail pro et perso|😐|
+|Gestion de secrets|❌|
+
+
+speaker:
 
 - Simple à mettre en place
 - Symlink
-
----
-
-## Inconvénients
-
 - Limité
-- Pas de gestion de secret
+- Pas de gestion de secret (dans un fichier de config par exemple)
 
 ---
 

@@ -4,11 +4,18 @@
 
 ---
 
-## Avantages
+## Avantages / Inconvénients
 
----
+|Objectif|État|
+|---|---|
+|Gérer mes fichiers de configuration|✅|
+|Gérer les logiciels installés|❌|
+|Versionnable|😐|
+|Facilement maintenable|❌|
+|Gérer mon poste de travail pro et perso|❌|
+|Gestion de secrets|❌|
 
-## Inconvénients
+speaker: Rapide, simple, mais autrement, difficilement maintenanable et nécessite une action manuelle.
 
 ---
 

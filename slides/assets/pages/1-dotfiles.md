@@ -9,6 +9,24 @@ stored in so called dotfiles (files whose filename starts with a dot).&rdquo;
 
 ---
 
+## Exemple
+
+```shell
+$ ❯ cat ~/.bashrc
+#!/usr/bin/env bash
+
+if [ -f /etc/bashrc ]; then
+ . /etc/bashrc
+fi
+
+export SSH_AUTH_SOCK=/run/user/1000/ssh-agent.socket
+# ...
+```
+
+> Et d'autres : vimrc, gitconfig, ...
+
+---
+
 ## Avantages
 
 <img src="/assets/img/git.jpeg"  height="400" width="400" alt="Git">

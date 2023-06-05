@@ -42,3 +42,5 @@ Images
 - <https://www.reddit.com/r/ProgrammerHumor/comments/mwltj5/when_people_tell_me_they_dont_hate_yaml/>
 - <https://tenor.com/view/tell-me-more-michael-scott-the-office-steve-carell-gif-5407074>
 - <https://xkcd.com/927/>
+- <https://tenor.com/fr/view/desert-neant-rolling-gif-15720968>
+- <https://www.ubuntubuzz.com/2019/03/what-to-do-after-installing-gnome-332-desktop-environment.html>

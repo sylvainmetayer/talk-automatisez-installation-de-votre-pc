@@ -1,0 +1,20 @@
+# debug file
+debug.json
+
+# Secrets
+
+# Ansible related
+variables.yml
+
+facts/
+run.log
+
+# Ansible galaxy roles
+/galaxy_roles/
+/collections/
+
+.direnv/
+.env
+
+sylvainmetayer-workstation-*.tar.gz
+.idea/

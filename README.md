@@ -2,7 +2,7 @@
 
 Automatisez l'installation de votre poste de travail !
 
-Durée : 30min
+Durée : 20min
 
 ## Abstract
 

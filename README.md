@@ -1,5 +1,7 @@
 # Automatisez l'installation de votre poste de travail !
 
+[Slides](https://sylvainmetayer.github.io/talk-automatisez-installation-de-votre-pc)
+
 Durée : 20min
 
 ## Abstract

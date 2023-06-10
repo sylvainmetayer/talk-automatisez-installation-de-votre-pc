@@ -21,3 +21,8 @@ jobs:
         working-directory: slides
       - run: npm run package
         working-directory: slides
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: slides/dist

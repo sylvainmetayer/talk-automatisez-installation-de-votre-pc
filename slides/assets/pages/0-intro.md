@@ -1,7 +1,5 @@
 # Présentation
 
-@sylvain_metayer
-
 Tech Lead
 
 <img src="/assets/img/logo.png"  height="100" width="300" alt="Logo onepoint">

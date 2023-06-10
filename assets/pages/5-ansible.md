@@ -26,7 +26,7 @@ Cependant, si pas d'usage d'ansible autre que pour un seul poste, peu être "lou
 
 ## Concrètement, on fait comment ?
 
-<img src="/assets/img/tell_me_more.gif"  height="300" width="600" alt="Tell me more">
+<img src="assets/img/tell_me_more.gif"  height="300" width="600" alt="Tell me more">
 
 ---
 
@@ -52,7 +52,7 @@ Ansible galaxy fournit plein de roles déjà prêt (exemple : Guerrlinguy docker
 
 ### Gestion des secrets
 
-<img src="/assets/img/public-secrets.jpg"  height="400" width="400" alt="Tell me more">
+<img src="assets/img/public-secrets.jpg"  height="400" width="400" alt="Tell me more">
 
 ---
 

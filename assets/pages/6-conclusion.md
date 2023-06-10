@@ -1,6 +1,6 @@
 # Conclusion
 
-<img src="/assets/img/standards.png"  height="300" width="600" alt="Standard">
+<img src="assets/img/standards.png"  height="300" width="600" alt="Standard">
 
 <https://github.com/sylvainmetayer/dotfiles>
 

@@ -29,13 +29,13 @@ export SSH_AUTH_SOCK=/run/user/1000/ssh-agent.socket
 
 [//]: # (## Avantages)
 [//]: # ()
-[//]: # (<img src="/assets/img/git.jpeg"  height="400" width="400" alt="Git">)
+[//]: # (<img src="assets/img/git.jpeg"  height="400" width="400" alt="Git">)
 [//]: # ()
 [//]: # (---)
 
 ## On fait comment ?
 
-<img src="/assets/img/do-it.gif"  height="300" width="600" alt="Do ti">
+<img src="assets/img/do-it.gif"  height="300" width="600" alt="Do ti">
 
 <https://dotfiles.github.io/>
 

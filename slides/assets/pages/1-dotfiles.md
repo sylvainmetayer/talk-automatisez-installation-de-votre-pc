@@ -27,11 +27,11 @@ export SSH_AUTH_SOCK=/run/user/1000/ssh-agent.socket
 
 ---
 
-## Avantages
-
-<img src="/assets/img/git.jpeg"  height="400" width="400" alt="Git">
-
----
+[//]: # (## Avantages)
+[//]: # ()
+[//]: # (<img src="/assets/img/git.jpeg"  height="400" width="400" alt="Git">)
+[//]: # ()
+[//]: # (---)
 
 ## On fait comment ?
 

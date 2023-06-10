@@ -7,9 +7,9 @@
 speaker:
 Autres alternatives :
 
-chezmoi
+<https://www.chezmoi.io/>
 
-loco.sh
+<https://github.com/t0pd4wn/loco.sh>
 
 ---
 

@@ -1,6 +1,10 @@
 # Présentation
 
-TODO : Logo OP + photo
+@sylvain_metayer
+
+Tech Lead
+
+<img src="/assets/img/logo.png"  height="100" width="300" alt="Logo onepoint">
 
 ---
 
@@ -16,14 +20,14 @@ TODO : Logo OP + photo
 
 ---
 
-|Objectif|État|
-|---|---|
-|Gérer mes fichiers de configuration|❌|
-|Gérer les logiciels installés|❌|
-|Versionnable|❌|
-|Facilement maintenable|❌|
-|Gérer mon poste de travail pro et perso|❌|
-|Gestion de secrets|❌|
+| Objectif                                | État |
+|-----------------------------------------|------|
+| Gérer mes fichiers de configuration     | ?    |
+| Gérer les logiciels installés           | ?    |
+| Versionnable                            | ?    |
+| Facilement maintenable                  | ?    |
+| Gérer mon poste de travail pro et perso | ?    |
+| Gestion de secrets                      | ?    |
 
 speaker: Garder la config de mon prompt custom, gérer mes fichiers config ...
 

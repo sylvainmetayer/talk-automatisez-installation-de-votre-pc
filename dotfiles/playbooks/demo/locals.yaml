@@ -1,0 +1,33 @@
+---
+# ASDF
+asdf_plugins:
+  - name: "direnv"
+    versions: ["2.31.0"]
+    global: "2.31.0"
+    yum_deps: []
+  - name: "fzf"
+    versions: ["0.30.0"]
+    global: "0.30.0"
+    yum_deps: []
+  - name: "starship"
+    versions: ["1.10.3"]
+    global: "1.10.3"
+    yum_deps: []
+
+asdf_version: "v0.11.3"
+asdf_legacy_version_file: "no"
+
+# HOSTNAME
+hostname_name: demo
+hostname_fqdn: demo.localhost
+
+# GNOMES EXTENSIONS
+gnome_extension_ids:
+  # https://extensions.gnome.org/extension/1162/emoji-selector/
+  - 1162
+  # https://extensions.gnome.org/extension/1262/bing-wallpaper-changer/
+  - 1262
+
+# DOCKER
+docker_install_compose: false
+docker_users: ["{{ ansible_user_id }}"]

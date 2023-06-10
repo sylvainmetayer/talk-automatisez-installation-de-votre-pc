@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 
-echo "TODO"
+echo "- La VM est reset ?"
+echo "- Les slides sont disponible en local au cas ou ?"

@@ -4,19 +4,19 @@
 
 ## Avantages / Inconvénients
 
-|Objectif|État|
-|---|---|
-|Gérer mes fichiers de configuration|✅|
-|Gérer les logiciels installés|✅|
-|Versionnable|✅|
-|Facilement maintenable|✅|
-|Gérer mon poste de travail pro et perso|✅|
-|Gestion de secrets|✅|
+| Objectif                                | État |
+|-----------------------------------------|------|
+| Gérer mes fichiers de configuration     | ✅    |
+| Gérer les logiciels installés           | ✅    |
+| Versionnable                            | ✅    |
+| Facilement maintenable                  | ✅    |
+| Gérer mon poste de travail pro et perso | ✅    |
+| Gestion de secrets                      | ✅    |
 
 speaker:
 
 - Peu de prérequis
-- Vous utilisez déjà ansible pour vos configuration de machines ?
+- Vous utilisez déjà ansible pour votre configuration de machines ?
 - Roles / Playbooks (séparer PC pro/perso)
 - Syntaxe YAML
 

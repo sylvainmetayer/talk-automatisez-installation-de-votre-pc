@@ -10,14 +10,14 @@
 
 ## Avantages / Inconvénients
 
-|Objectif|État|
-|---|---|
-|Gérer mes fichiers de configuration|✅|
-|Gérer les logiciels installés|❌|
-|Versionnable|✅|
-|Facilement maintenable|❌|
-|Gérer mon poste de travail pro et perso|😐|
-|Gestion de secrets|❌|
+| Objectif                                | État |
+|-----------------------------------------|------|
+| Gérer mes fichiers de configuration     | ✅    |
+| Gérer les logiciels installés           | ❌    |
+| Versionnable                            | ✅    |
+| Facilement maintenable                  | ❌    |
+| Gérer mon poste de travail pro et perso | 😐   |
+| Gestion de secrets                      | ❌    |
 
 
 speaker:
@@ -26,7 +26,4 @@ speaker:
 - Symlink
 - Limité
 - Pas de gestion de secret (dans un fichier de config par exemple)
-
----
-
-## Démo
+- Pas d'installation de logiciels sans script

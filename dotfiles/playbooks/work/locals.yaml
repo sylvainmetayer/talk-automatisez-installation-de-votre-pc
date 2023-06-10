@@ -1,0 +1,40 @@
+---
+# ASDF
+asdf_plugins:
+  - name: docker-compose
+    repository: "https://github.com/virtualstaticvoid/asdf-docker-compose.git"
+    versions:
+      - 1.29.2
+    global: 1.29.2
+    yum_deps: []
+  - name: "rust"
+    repository: "https://github.com/asdf-community/asdf-rust.git"
+    versions:
+      - "1.62.0"
+    global: "1.62.0"
+    yum_deps: []
+  - name: "direnv"
+    versions: ["2.32.0"]
+    global: "2.32.0"
+    yum_deps: []
+  - name: "fzf"
+    versions: ["0.30.0"]
+    global: "0.30.0"
+    yum_deps: []
+  - name: "starship"
+    versions: ["1.10.3"]
+    global: "1.10.3"
+    yum_deps: []
+
+asdf_version: "v0.11.3"
+asdf_legacy_version_file: "no"
+
+# HOSTNAME
+hostname_name: work
+hostname_fqdn: work.localhost
+
+# GNOMES EXTENSIONS
+gnome_extension_ids: []
+# DOCKER
+docker_install_compose: false
+docker_users: ["{{ ansible_user_id }}"]

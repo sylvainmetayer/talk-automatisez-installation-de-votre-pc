@@ -9,20 +9,16 @@ jobs:
   build:
     concurrency: ci-${{ github.ref }} # Recommended if you intend to make multiple deployments in quick succession.
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [14.x]
     steps:
       - uses: actions/checkout@v2
-      - name: Use Node.js ${{ matrix.node-version }}
+      - name: Use Node.js 16.x
         uses: actions/setup-node@v1
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version: 16.x
       - run: npm ci
         working-directory: slides
       - run: npm run package
         working-directory: slides
-
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:

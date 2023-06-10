@@ -40,3 +40,5 @@ export SSH_AUTH_SOCK=/run/user/1000/ssh-agent.socket
 <https://dotfiles.github.io/>
 
 <https://github.com/webpro/awesome-dotfiles>
+
+speaker: Lancer le script sur la VM !!

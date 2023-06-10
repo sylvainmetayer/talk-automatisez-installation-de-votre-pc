@@ -5,5 +5,3 @@ collections:
 roles:
   - src: jaredhocutt.gnome_extensions
     version: master
-  - src: sourcejedi.rpmfusion_free
-    version: master

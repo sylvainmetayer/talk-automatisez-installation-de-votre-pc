@@ -287,8 +287,7 @@ gulp.task('package', gulp.series('default', () => {
     ], { base: './' })
 
     return merge(assets, files)
-    .pipe(zip('terraform.zip'))
-    .pipe(gulp.dest('./'))
+    .pipe(gulp.dest('./dist'))
 }))
 
 gulp.task('reload', () => gulp.src(['*.html', '*.md'])

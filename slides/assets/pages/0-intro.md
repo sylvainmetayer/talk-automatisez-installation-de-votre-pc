@@ -2,19 +2,19 @@
 
 Tech Lead
 
-<img src="/assets/img/logo.png"  height="100" width="300" alt="Logo onepoint">
+<img src="assets/img/logo.png"  height="100" width="300" alt="Logo onepoint">
 
 ---
 
 # Point de départ
 
-<img src="/assets/img/desert.gif"  height="500" width="800" alt="Désert">
+<img src="assets/img/desert.gif"  height="500" width="800" alt="Désert">
 
 ---
 
 # Objectif
 
-<img src="/assets/img/full_install.png"  height="500" width="800" alt="Installation OK">
+<img src="assets/img/full_install.png"  height="500" width="800" alt="Installation OK">
 
 ---
 

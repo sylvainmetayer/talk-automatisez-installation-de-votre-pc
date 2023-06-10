@@ -1,4 +1,12 @@
 ---
+- name: Ensure required folder exists
+  file:
+    path: "{{ item }}"
+    state: directory
+    mode: "0700"
+  with_items:
+    - ~/.ssh
+
 - name: Ensure Git config file exists
   copy:
     content: ""

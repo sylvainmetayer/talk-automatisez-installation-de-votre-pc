@@ -27,7 +27,9 @@ gnome_extension_ids:
   - 1162
   # https://extensions.gnome.org/extension/1262/bing-wallpaper-changer/
   - 1262
+  # https://extensions.gnome.org/extension/615/appindicator-support/
+  - 615
 
-# DOCKER
-docker_install_compose: false
+# geerlingguy/ansible-role-docker
+docker_install_compose_plugin: true
 docker_users: ["{{ ansible_user_id }}"]

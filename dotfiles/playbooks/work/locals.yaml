@@ -1,12 +1,6 @@
 ---
 # ASDF
 asdf_plugins:
-  - name: docker-compose
-    repository: "https://github.com/virtualstaticvoid/asdf-docker-compose.git"
-    versions:
-      - 1.29.2
-    global: 1.29.2
-    yum_deps: []
   - name: "rust"
     repository: "https://github.com/asdf-community/asdf-rust.git"
     versions:

@@ -5,3 +5,5 @@ collections:
 roles:
   - src: jaredhocutt.gnome_extensions
     version: master
+  - src: geerlingguy.docker
+    version: 6.1.0

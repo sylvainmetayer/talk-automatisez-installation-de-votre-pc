@@ -270,7 +270,7 @@ gulp.task('eslint', () => gulp.src(['./revealjs_data/js/**', 'gulpfile.js'])
 gulp.task('test', gulp.series('eslint', 'qunit'))
 
 gulp.task('build-html', () => gulp.src('index.html')
-    .pipe(replace(/revealjs_data/g, ''))
+    .pipe(replace(/revealjs_data\//g, ''))
     .pipe(gulp.dest('dist/')))
 
 gulp.task('default', gulp.series(gulp.parallel('js', 'css', 'plugins', 'build-html')))
@@ -284,6 +284,7 @@ gulp.task('package', gulp.series('default', () => {
     ])
     const assets = gulp.src([
         './assets/**/*.*',
+        './favicon.ico'
     ], { base: './' })
 
     return merge(assets, files)

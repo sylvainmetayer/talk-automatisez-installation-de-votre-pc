@@ -25,11 +25,8 @@ commons_symlinks:
   - .bashrc.d/_env.sh
   - .bashrc.d/git_clean.sh
   - .bashrc.d/gitignore.sh
-  - .bashrc.d/ipLocation.sh
-  - .bashrc.d/ipv6.sh
   - .bashrc.d/kill_me.sh
   - .bashrc.d/load_env.sh
-  - .bashrc.d/logs.sh
 
 setup_direnv: true
 setup_starship_init_script: true

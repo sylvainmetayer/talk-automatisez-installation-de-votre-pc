@@ -25,4 +25,8 @@ source ~/.bashrc # montrer
 newgrp docker
 docker container run hello-world
 # ouvrir jetbrain + spotify + vscode
+ls -ail $HOME
+cat $HOME/.gitconfig
+cat $HOME/.vimrc
+cat $HOME/secret_data.txt
 ```

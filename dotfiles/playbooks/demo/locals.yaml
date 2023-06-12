@@ -33,3 +33,8 @@ gnome_extension_ids:
 # geerlingguy/ansible-role-docker
 docker_install_compose_plugin: true
 docker_users: ["{{ ansible_user_id }}"]
+
+fedora_dependencies_flatpak:
+  - https://flathub.org/repo/appstream/com.spotify.Client.flatpakref
+  - https://flathub.org/repo/appstream/org.signal.Signal.flatpakref
+  - https://flathub.org/repo/appstream/org.gnome.Extensions.flatpakref

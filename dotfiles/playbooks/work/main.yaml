@@ -31,13 +31,3 @@
       tags: gnome
     - role: commons
       tags: commons
-
-  post_tasks:
-    - name: "Copy secret file"
-      copy:
-        src: "secret_data.txt"
-        dest: ~/secret_data.txt
-        force: false
-        group: "{{ ansible_user_gid }}"
-        owner: "{{ ansible_user_uid }}"
-        mode: "0600"

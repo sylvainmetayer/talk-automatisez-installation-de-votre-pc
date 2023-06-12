@@ -51,5 +51,4 @@ hostname_fqdn: work.localhost
 # GNOMES EXTENSIONS
 gnome_extension_ids: []
 # DOCKER
-docker_install_compose: false
 docker_users: ["{{ ansible_user_id }}"]

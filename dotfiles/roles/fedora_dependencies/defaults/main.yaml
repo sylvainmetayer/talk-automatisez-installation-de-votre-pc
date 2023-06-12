@@ -12,8 +12,6 @@ fedora_dependencies_repositories:
     gpg_check: true
 
 fedora_dependencies_packages:
-  # Wayland cause Electron apps to bug when it come to screen sharing, use chrome (not chromium) because it work here.
-  - google-chrome-stable
   - fwupd
   - openssh-askpass
   - git

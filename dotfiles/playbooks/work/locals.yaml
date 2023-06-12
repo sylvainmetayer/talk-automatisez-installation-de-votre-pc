@@ -20,6 +20,27 @@ asdf_plugins:
     global: "1.10.3"
     yum_deps: []
 
+commons_custom_scripts:
+  - command: starship
+    script: 'eval "$(starship init bash)"'
+  - command: npm
+    script: "source <(npm completion)"
+  - command: kubectl
+    script: "source <(kubectl completion bash)"
+  - command: aws_completer
+    script: "complete -C ~/.asdf/shims/aws_completer aws"
+  - command: terraform
+    script: 'complete -C $(asdf where terraform)/bin/terraform terraform'
+  - command: direnv
+    script: 'eval "$(direnv hook bash)"'
+  - command: fzf
+    script: "source $(asdf where fzf)/shell/key-bindings.bash"
+  - command: k3d
+    script: "source <(k3d completion bash)"
+  - command: argocd
+    script: "source <(argocd completion bash)"
+
+
 asdf_version: "v0.11.3"
 asdf_legacy_version_file: "no"
 

@@ -48,15 +48,17 @@ Ansible galaxy fournit plein de roles déjà prêt (exemple : Guerrlinguy docker
 
 ### Symlink
 
+speaker: fonction `gitignore`
+
+---
+
+### Templating
+
 ---
 
 ### Gestion des secrets
 
 <img src="assets/img/public-secrets.jpg"  height="400" width="400" alt="Tell me more">
-
----
-
-### Templating
 
 ---
 

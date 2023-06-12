@@ -15,9 +15,9 @@
 | Gérer mes fichiers de configuration     | ✅    |
 | Gérer les logiciels installés           | ❌    |
 | Versionnable                            | ✅    |
-| Facilement maintenable                  | ❌    |
+| Facilement maintenable                  | ✅    |
 | Gérer mon poste de travail pro et perso | 😐   |
-| Gestion de secrets                      | ❌    |
+| Gestion de secrets                      | 😐   |
 
 
 speaker:

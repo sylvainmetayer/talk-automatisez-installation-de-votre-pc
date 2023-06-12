@@ -13,7 +13,7 @@ Du shell, du python, du C, du PHP... Venez comme vous êtes, on va coder !
 | Versionnable                            | ✅    |
 | Facilement maintenable                  | 😐   |
 | Gérer mon poste de travail pro et perso | ✅    |
-| Gestion de secrets                      | 😐   |
+| Gestion de secrets                      | ✅    |
 
 speaker:
 - Avantage On répond enfin au besoin ! On choisit un langage qu'on aime !

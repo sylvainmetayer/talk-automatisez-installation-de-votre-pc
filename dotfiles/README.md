@@ -21,6 +21,8 @@
 git clone https://github.com/sylvainmetayer/talk-automatisez-installation-de-votre-pc.git
 ./scripts/bootstrap.sh
 
+source ~/.bashrc # montrer
 newgrp docker
 docker container run hello-world
+# ouvrir jetbrain + spotify + vscode
 ```

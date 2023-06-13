@@ -24,45 +24,43 @@ Cependant, si pas d'usage d'ansible autre que pour un seul poste, peu être "lou
 
 ---
 
-## Concrètement, on fait comment ?
+## Concrètement, comment fait-on ?
 
 <img src="assets/img/tell_me_more.gif"  height="300" width="600" alt="Tell me more">
 
----
+speaker:
 
-### Structure
+- Structure
+- Usage
+- Symlink
+- Gestion des secrets
+- Plusieurs machines
 
-speaker: roles, tasks, playbook, variables
+Structure : 
+
+roles, tasks, playbook, variables
 
 Ansible galaxy fournit plein de roles déjà prêt (exemple : Guerrlinguy docker) pour setup votre pc
 
----
+Usage : 
 
-### Usage
+montrer script bootstrap rapidement
 
----
+Installation de packages : 
 
-### Installation de packages
+dotfiles/roles/fedora_dependencies/tasks/main.yaml
 
----
+Symlink : 
 
-### Symlink
+dotfiles/roles/commons/tasks/symlink.yml + fonction gitignore à présenter
 
-speaker: fonction `gitignore`
+Templating : Dire que possible si besoin de boucles à partir de variables, mais ne pas présenter et renvoyer vers la documentation
 
----
+Montrer résultat de gitconfig
 
-### Templating
+Gestion des secrets : secret_data.txt + bootstrap.sh
 
----
-
-### Gestion des secrets
-
-<img src="assets/img/public-secrets.jpg"  height="400" width="400" alt="Tell me more">
-
----
-
-### Plusieurs machines ?
+Plusieurs machines : playbooks demo + work avec variables différentes
 
 ---
 

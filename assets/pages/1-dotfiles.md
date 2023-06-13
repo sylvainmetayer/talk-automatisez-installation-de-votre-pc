@@ -33,7 +33,7 @@ export SSH_AUTH_SOCK=/run/user/1000/ssh-agent.socket
 [//]: # ()
 [//]: # (---)
 
-## On fait comment ?
+## Comment fait-on ?
 
 <img src="assets/img/do-it.gif"  height="300" width="600" alt="Do ti">
 
@@ -41,4 +41,3 @@ export SSH_AUTH_SOCK=/run/user/1000/ssh-agent.socket
 
 <https://github.com/webpro/awesome-dotfiles>
 
-speaker: Lancer le script sur la VM !!

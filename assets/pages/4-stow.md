@@ -17,7 +17,7 @@
 | Versionnable                            | ✅    |
 | Facilement maintenable                  | ✅    |
 | Gérer mon poste de travail pro et perso | 😐   |
-| Gestion de secrets                      | 😐   |
+| Gestion de secrets                      | ❌    |
 
 
 speaker:
@@ -25,5 +25,5 @@ speaker:
 - Simple à mettre en place
 - Symlink
 - Limité
-- Pas de gestion de secret (dans un fichier de config par exemple)
+- Pas de gestion de secret (dans un fichier de config par exemple) ou étape intermédiaire de chiffrement nécessaire
 - Pas d'installation de logiciels sans script

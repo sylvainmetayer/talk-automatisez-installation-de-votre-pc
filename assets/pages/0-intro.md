@@ -1,8 +1,10 @@
-# Présentation
+Sylvain METAYER - Tech Lead ([sylvain.dev](https://sylvain.dev)) 
 
-Tech Lead
+<img src="assets/img/photo.png" alt="Photo" id="intro_photo">
 
-<img src="assets/img/logo.png"  height="100" width="300" alt="Logo onepoint">
+<img src="assets/img/logo.png" alt="Logo onepoint" id="intro_logo_op">
+
+speaker: présentation plus orientée automatisation devops et que dans le cadre de mon boulot, à forcer d'automatiser tout pourquoi pas automatiser mon pc
 
 ---
 
@@ -15,6 +17,8 @@ Tech Lead
 # Objectif
 
 <img src="assets/img/full_install.png"  height="500" width="800" alt="Installation OK">
+
+speaker: Lancer le script sur la VM !! et montrer que la VM est vide
 
 ---
 
@@ -29,12 +33,10 @@ Tech Lead
 
 speaker: Garder la config de mon prompt custom, gérer mes fichiers config ...
 
----
+Plan : 
 
-# Plan
-
-1. Dotfiles <!-- .element: class="fragment" data-fragment-index="0" -->
-2. Une méthode vieille comme le monde <!-- .element: class="fragment" data-fragment-index="1" -->
-3. Stow <!-- .element: class="fragment" data-fragment-index="2" -->
-4. Un script maison <!-- .element: class="fragment" data-fragment-index="3" -->
-5. Ansible <!-- .element: class="fragment" data-fragment-index="4" -->
+- Dotfiles
+- Une méthode vieille comme le monde
+- Stow
+- Un script maison
+- Ansible

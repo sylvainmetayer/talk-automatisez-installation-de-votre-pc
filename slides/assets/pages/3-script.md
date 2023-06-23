@@ -2,9 +2,9 @@
 
 Du shell, du python, du C, du PHP... Venez comme vous êtes, on va coder !
 
----
+,,,
 
-## Avantages / Inconvénients
+## Avantages / Inconvénients <!-- .element: class="advantage_inconvenience" -->
 
 | Objectif                                | État |
 |-----------------------------------------|------|

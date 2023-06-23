@@ -2,9 +2,9 @@
 
 <img src="assets/img/c_v.gif"  height="400" width="400" alt="Git">
 
----
+,,,
 
-## Avantages / Inconvénients
+## Avantages / Inconvénients <!-- .element: class="advantage_inconvenience" -->
 
 | Objectif                                | État |
 |-----------------------------------------|------|

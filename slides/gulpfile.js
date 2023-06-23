@@ -294,7 +294,7 @@ gulp.task('package', gulp.series('default', () => {
 gulp.task('reload', () => gulp.src(['*.html', '*.md'])
     .pipe(connect.reload()));
 
-gulp.task('serve', () => {
+gulp.task('serve', gulp.series('default', () => {
 
     connect.server({
         root: root,
@@ -321,4 +321,4 @@ gulp.task('serve', () => {
 
     gulp.watch(['revealjs_data/test/*.html'], gulp.series('test'))
 
-})
+}));

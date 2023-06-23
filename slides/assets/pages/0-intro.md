@@ -1,4 +1,4 @@
-Sylvain METAYER - Tech Lead ([sylvain.dev](https://sylvain.dev)) 
+Sylvain METAYER - Tech Lead ([sylvain.dev](https://sylvain.dev))
 
 <img src="assets/img/photo.png" alt="Photo" id="intro_photo">
 
@@ -6,13 +6,13 @@ Sylvain METAYER - Tech Lead ([sylvain.dev](https://sylvain.dev))
 
 speaker: présentation plus orientée automatisation devops et que dans le cadre de mon boulot, à forcer d'automatiser tout pourquoi pas automatiser mon pc
 
----
+,,,
 
 # Point de départ
 
 <img src="assets/img/desert.gif"  height="500" width="800" alt="Désert">
 
----
+,,,
 
 # Objectif
 
@@ -20,7 +20,9 @@ speaker: présentation plus orientée automatisation devops et que dans le cadre
 
 speaker: Lancer le script sur la VM !! et montrer que la VM est vide
 
----
+,,,
+
+## Avantages / Inconvénients <!-- .element: class="advantage_inconvenience" -->
 
 | Objectif                                | État |
 |-----------------------------------------|------|
@@ -33,7 +35,7 @@ speaker: Lancer le script sur la VM !! et montrer que la VM est vide
 
 speaker: Garder la config de mon prompt custom, gérer mes fichiers config ...
 
-Plan : 
+Plan :
 
 - Dotfiles
 - Une méthode vieille comme le monde

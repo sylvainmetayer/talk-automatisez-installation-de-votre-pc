@@ -115,6 +115,7 @@
         // Display a presentation progress bar
         progress: true,
         slideNumber: true,
+        slideNumber: 'c/t',
         totalTime: 50 * 60,
         pdfMaxPagesPerSlide: 1,
         // Learn about plugins: https://revealjs.com/plugins/
@@ -122,7 +123,6 @@
       });
       // 3. On Reveal.js ready event, copy header/footer <div> into each `.slide-background` <div>
       var footer = $('#footer').html();
-      console.log(footer);
       if ( window.location.search.match( /print-pdf/gi ) ) {
           Reveal.addEventListener( 'ready', function( event ) {
               $('.slide-background').append(footer);
@@ -130,7 +130,7 @@
       }
       else {
           $('div.reveal').append(footer);
-    }
+      }
     </script>
   </body>
 </html>

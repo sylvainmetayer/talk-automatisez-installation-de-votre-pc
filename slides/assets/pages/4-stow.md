@@ -6,9 +6,9 @@
 
 <small><a href='https://www.gnu.org/software/stow/manual/stow.html#Bootstrapping'>https://www.gnu.org/software/stow/manual/stow.html#Bootstrapping</a></small>
 
----
+,,,
 
-## Avantages / Inconvénients
+## Avantages / Inconvénients <!-- .element: class="advantage_inconvenience" -->
 
 | Objectif                                | État |
 |-----------------------------------------|------|
@@ -16,9 +16,8 @@
 | Gérer les logiciels installés           | ❌    |
 | Versionnable                            | ✅    |
 | Facilement maintenable                  | ✅    |
-| Gérer mon poste de travail pro et perso | 😐   |
+| Gérer mon poste de travail pro et perso | 😐    |
 | Gestion de secrets                      | ❌    |
-
 
 speaker:
 

@@ -7,7 +7,7 @@ stored in so called dotfiles (files whose filename starts with a dot).&rdquo;
 
 <small><a href='https://wiki.archlinux.org/title/Dotfiles'>https://wiki.archlinux.org/title/Dotfiles</a></small>
 
----
+,,,
 
 ## Exemple
 
@@ -25,13 +25,7 @@ export SSH_AUTH_SOCK=/run/user/1000/ssh-agent.socket
 
 > Et d'autres : vimrc, gitconfig, ...
 
----
-
-[//]: # (## Avantages)
-[//]: # ()
-[//]: # (<img src="assets/img/git.jpeg"  height="400" width="400" alt="Git">)
-[//]: # ()
-[//]: # (---)
+,,,
 
 ## Comment fait-on ?
 
@@ -40,4 +34,3 @@ export SSH_AUTH_SOCK=/run/user/1000/ssh-agent.socket
 <https://dotfiles.github.io/>
 
 <https://github.com/webpro/awesome-dotfiles>
-

@@ -1,8 +1,8 @@
 # Ansible
 
----
+,,,
 
-## Avantages / Inconvénients
+## Avantages / Inconvénients <!-- .element: class="advantage_inconvenience" -->
 
 | Objectif                                | État |
 |-----------------------------------------|------|
@@ -22,7 +22,7 @@ speaker:
 
 Cependant, si pas d'usage d'ansible autre que pour un seul poste, peu être "lourd" à mettre en place
 
----
+,,,
 
 ## Concrètement, comment fait-on ?
 
@@ -36,21 +36,21 @@ speaker:
 - Gestion des secrets
 - Plusieurs machines
 
-Structure : 
+Structure :
 
 roles, tasks, playbook, variables
 
 Ansible galaxy fournit plein de roles déjà prêt (exemple : Guerrlinguy docker) pour setup votre pc
 
-Usage : 
+Usage :
 
 montrer script bootstrap rapidement
 
-Installation de packages : 
+Installation de packages :
 
 dotfiles/roles/fedora_dependencies/tasks/main.yaml
 
-Symlink : 
+Symlink :
 
 dotfiles/roles/commons/tasks/symlink.yml + fonction gitignore à présenter
 
@@ -62,7 +62,7 @@ Gestion des secrets : secret_data.txt + bootstrap.sh
 
 Plusieurs machines : playbooks demo + work avec variables différentes
 
----
+,,,
 
 ### Et comment on fait...
 

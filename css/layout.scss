@@ -2,6 +2,20 @@
  * Layout helpers.
  */
 
+.float_left {
+  float: left;
+  margin: 0px 15px 15px 0px;
+  height: 400px;
+  width: 500px;
+}
+
+.float_right {
+  float: right;
+  margin: 0px 15px 15px 0px;
+  height: 400px;
+  width: 400px;
+}
+
 #intro_photo {
   float: left;
   margin: 0px 15px 15px 0px;
@@ -22,6 +36,15 @@
 
 #main_title {
   font-size: 5rem;
+}
+
+// https://caniuse.com/css-has
+section:not(.stack).present:has(.advantage_inconvenience) {
+  background-color: #BB8181FF;
+}
+
+.advantage_inconvenience::before {
+  content: '📋 '
 }
 
 // section {

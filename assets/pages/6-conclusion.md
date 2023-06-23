@@ -14,11 +14,16 @@ Autres alternatives :
 
 <https://github.com/t0pd4wn/loco.sh>
 
----
+,,,
 
 # Merci !
 
-<img src="assets/img/openfeedback.png"  height="400" width="400" alt="Openfeedback">
-
-
 [@sylvain_metayer](https://twitter.com/sylvain_metayer)
+
+<img src="assets/img/openfeedback.png"  height="400" width="400" alt="QR code Openfeedback">
+
+,,,
+
+Openfeedback <!-- .element: class="float_left" --> <img src="assets/img/openfeedback.png"  height="400" width="400" alt="QR code Openfeedback">
+
+Slides <!-- .element: class="float_right" --> <img src="assets/img/slides_link.png"  height="400" width="400" alt="QR code slides">

@@ -40,11 +40,26 @@
 
 // https://caniuse.com/css-has
 section:not(.stack).present:has(.advantage_inconvenience) {
-  background-color: #BB8181FF;
+  color: black;
+  background-color: white;
+}
+
+.reveal h2.advantage_inconvenience {
+  color: black;
 }
 
 .advantage_inconvenience::before {
-  content: '📋 '
+  content: '❌';
+  position: absolute;
+  top: 0%;
+  left: 110%;
+}
+
+.advantage_inconvenience::after {
+  position: absolute;
+  top: 0%;
+  left: -20%;
+  content: '✅';
 }
 
 // section {

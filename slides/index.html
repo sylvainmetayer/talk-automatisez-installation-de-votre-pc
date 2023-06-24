@@ -27,7 +27,8 @@
         <section data-timing="60">
           <img src="assets/img/sunny_logo.png" alt="Logo SunnyTech" id="sunny_logo">
           <h1 id="main_title">Automatisez l'installation de votre poste de travail !</h1>
-          <p>Sylvain METAYER - 29 juin 2023 </p>
+          <p>Sylvain METAYER - <a href="https://twitter.com/sylvain_metayer">@sylvain_metayer</a>
+          </p>
         </section>
         <section
           data-timing="180"
@@ -73,21 +74,13 @@
           data-separator-notes="^speaker:"
           data-charset="utf-8"></section>
           <section
-          data-timing="600"
+          data-timing="60"
           data-markdown="assets/pages/6-conclusion.md"
           data-separator="^---"
           data-separator-vertical="^,,,"
           data-separator-notes="^speaker:"
           data-charset="utf-8"></section>
         </section>
-      </div>
-    </div>
-
-    <div id="hidden" style="display:none;">
-      <div id='footer'>
-        <div class='footer'>
-          <a style="color: white;" href="https://r.sylvain.dev/sunnytech2023">https://r.sylvain.dev/sunnytech2023</a>
-        </div>
       </div>
     </div>
 
@@ -121,16 +114,6 @@
         // Learn about plugins: https://revealjs.com/plugins/
         plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
       });
-      // 3. On Reveal.js ready event, copy header/footer <div> into each `.slide-background` <div>
-      var footer = $('#footer').html();
-      if ( window.location.search.match( /print-pdf/gi ) ) {
-          Reveal.addEventListener( 'ready', function( event ) {
-              $('.slide-background').append(footer);
-          });
-      }
-      else {
-          $('div.reveal').append(footer);
-      }
     </script>
   </body>
 </html>

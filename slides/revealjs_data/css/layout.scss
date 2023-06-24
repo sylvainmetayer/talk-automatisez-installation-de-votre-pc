@@ -3,17 +3,17 @@
  */
 
 .float_left {
-  float: left;
-  margin: 0px 15px 15px 0px;
-  height: 400px;
+  height: auto;
   width: 500px;
+  position: absolute;
+  left: -20%;
 }
 
 .float_right {
-  float: right;
-  margin: 0px 15px 15px 0px;
-  height: 400px;
-  width: 400px;
+  height: auto;
+  width: 500px;
+  position: absolute;
+  left: 65%;
 }
 
 #intro_photo {

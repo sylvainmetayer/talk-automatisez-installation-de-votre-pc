@@ -24,7 +24,11 @@ git clone https://github.com/sylvainmetayer/talk-automatisez-installation-de-vot
 source ~/.bashrc # montrer
 newgrp docker
 docker container run hello-world
-# ouvrir jetbrain + spotify + vscode
+
+~/.local/share/JetBrains/Toolbox/bin/jetbrains-toolbox &
+flatpak run com.spotify.Client
+code .
+
 ls -ail $HOME
 cat $HOME/.gitconfig
 cat $HOME/.vimrc

@@ -18,19 +18,47 @@
 ## demo
 
 ```shell
+# set time
+#timedatectl set-ntp false // timedatectl set-ntp true
 git clone https://github.com/sylvainmetayer/talk-automatisez-installation-de-votre-pc.git
+cd talk-automatisez-installation-de-votre-pc/dotfiles/
 ./scripts/bootstrap.sh
 
-source ~/.bashrc # montrer
 newgrp docker
 docker container run hello-world
 
-~/.local/share/JetBrains/Toolbox/bin/jetbrains-toolbox &
-flatpak run com.spotify.Client
+/opt/toolbox/jetbrains-toolbox &
+# lancer spotify
 code .
 
-ls -ail $HOME
-cat $HOME/.gitconfig
-cat $HOME/.vimrc
-cat $HOME/secret_data.txt
+# ctrl = // zoom in # ctrl - // zoom out # color theme => light+
+
+# // structure / playbook / roles
+# playbooks/demo/main.yaml
+# playbooks/demo/locals.yaml
+# roles/commons/tasks/main.yml
+
+# // usage
+# scripts/bootstrap.sh
+# requirements.txt
+# requirements.yml
+
+# // packages
+# roles/fedora_dependencies/tasks/main.yaml
+# roles/fedora_dependencies/tasks/packages.yaml
+# roles/fedora_dependencies/defaults/main.yaml
+
+# // symlink
+# roles/commons/tasks/main.yml
+# gitignore rust // which gitignore
+# roles/commons/files/.bashrc.d/gitignore.sh
+
+guake
+ls -ail ~
+cat ~/.gitconfig # template
+cat ~/.vimrc # symlink
+
+# playbooks/demo/main.yaml
+# playbooks/demo/secret_data.txt
+cat ~/secret_data.txt
 ```

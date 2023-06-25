@@ -39,16 +39,11 @@ fedora_dependencies_packages:
   - seahorse
   # Gnome related
   - libappindicator
-  - dconf-editor
   - python3-devel
   - flatpak
   - gnome-tweaks
   - guake
-  - thunderbird
   - libgnome-keyring
-  # Codec
-  - gstreamer1-libav
-  - graphviz
 
 fedora_dependencies_remove_packages:
   - gnome-maps

@@ -1,5 +1,15 @@
 # Ansible
 
+speaker:
+
+Outil d'automatisation permettant provisionnement machines
+
+Peut déployer sur parc de machine distant ou une seule machine locale
+
+Notion playbook / roles => communauté
+
+Syntaxe YAML
+
 ,,,
 
 ## Avantages / Inconvénients <!-- .element: class="advantage_inconvenience" -->

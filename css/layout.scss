@@ -52,13 +52,13 @@ section:not(.stack).present:has(.advantage_inconvenience) {
   content: '❌';
   position: absolute;
   top: 0%;
-  left: 110%;
+  left: 102%;
 }
 
 .advantage_inconvenience::after {
   position: absolute;
   top: 0%;
-  left: -20%;
+  left: -10%;
   content: '✅';
 }
 

@@ -1,27 +1,9 @@
 # Démo dotfiles
 
-## Initial Setup
-
-- `dnf install git python3-pip`
-- `git clone https://github.com/sylvainmetayer/talk-automatisez-installation-de-votre-pc`
-- `./scripts/bootstrap.sh` Will install dependencies and start demo playbook with the sudo password on the demo VM
-
-## Usage
-
-- `ANSIBLE_VAULT_PASSWORD_FILE=~/.ansible_vault.txt ansible-playbook playbooks/demo/main.yaml -K`
-
-- view file : `ANSIBLE_VAULT_PASSWORD_FILE=~/.ansible_vault.txt ansible-vault view secret_data.txt`
-- edit file : `ANSIBLE_VAULT_PASSWORD_FILE=~/.ansible_vault.txt ansible-vault edit secret_data.txt`
-- encrypt file : `ANSIBLE_VAULT_PASSWORD_FILE=~/.ansible_vault.txt ansible-vault encrypt secret_data.txt`
-- decrypt file: `ANSIBLE_VAULT_PASSWORD_FILE=~/.ansible_vault.txt ansible-vault decrypt secret_data.txt`
-
 ## demo
 
 ```shell
-# set time
-#timedatectl set-ntp false // timedatectl set-ntp true
-git clone https://github.com/sylvainmetayer/talk-automatisez-installation-de-votre-pc.git
-cd talk-automatisez-installation-de-votre-pc/dotfiles/
+git clone https://github.com/sylvainmetayer/talk-automatisez-installation-de-votre-pc.git && cd talk-automatisez-installation-de-votre-pc/dotfiles/
 ./scripts/bootstrap.sh
 
 newgrp docker
@@ -63,3 +45,18 @@ cat ~/.vimrc # symlink
 # playbooks/demo/secret_data.txt
 cat ~/secret_data.txt
 ```
+
+## Initial Setup
+
+- `dnf install git python3-pip`
+- `git clone https://github.com/sylvainmetayer/talk-automatisez-installation-de-votre-pc`
+- `./scripts/bootstrap.sh` Will install dependencies and start demo playbook with the sudo password on the demo VM
+
+## Usage
+
+- `ANSIBLE_VAULT_PASSWORD_FILE=~/.ansible_vault.txt ansible-playbook playbooks/demo/main.yaml -K`
+
+- view file : `ANSIBLE_VAULT_PASSWORD_FILE=~/.ansible_vault.txt ansible-vault view secret_data.txt`
+- edit file : `ANSIBLE_VAULT_PASSWORD_FILE=~/.ansible_vault.txt ansible-vault edit secret_data.txt`
+- encrypt file : `ANSIBLE_VAULT_PASSWORD_FILE=~/.ansible_vault.txt ansible-vault encrypt secret_data.txt`
+- decrypt file: `ANSIBLE_VAULT_PASSWORD_FILE=~/.ansible_vault.txt ansible-vault decrypt secret_data.txt`

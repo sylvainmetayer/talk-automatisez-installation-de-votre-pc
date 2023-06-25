@@ -37,6 +37,7 @@ code .
 # playbooks/demo/main.yaml
 # playbooks/demo/locals.yaml
 # roles/commons/tasks/main.yml
+# inventory.yml
 
 # // usage
 # scripts/bootstrap.sh

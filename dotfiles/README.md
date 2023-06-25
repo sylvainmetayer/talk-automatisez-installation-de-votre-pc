@@ -3,15 +3,14 @@
 ## demo
 
 ```shell
-git clone https://github.com/sylvainmetayer/talk-automatisez-installation-de-votre-pc.git && cd talk-automatisez-installation-de-votre-pc/dotfiles/
-./scripts/bootstrap.sh
+git clone https://github.com/sylvainmetayer/talk-automatisez-installation-de-votre-pc.git && cd talk-automatisez-installation-de-votre-pc/dotfiles/ && ./scripts/bootstrap.sh
 
 newgrp docker
 docker container run hello-world
 
 /opt/toolbox/jetbrains-toolbox &
 # lancer spotify
-code .
+code $HOME/talk-automatisez-installation-de-votre-pc/dotfiles
 
 # ctrl = // zoom in # ctrl - // zoom out # color theme => light+
 

@@ -74,7 +74,7 @@ Plusieurs machines : playbooks demo + work avec variables différentes
 
 ,,,
 
-### Et comment on fait...
+### Et si je veux faire...
 
 <https://docs.ansible.com/>
 

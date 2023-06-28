@@ -9,7 +9,6 @@ newgrp docker
 docker container run hello-world
 
 /opt/toolbox/jetbrains-toolbox &
-# lancer spotify
 code $HOME/talk-automatisez-installation-de-votre-pc/dotfiles
 
 # ctrl = // zoom in # ctrl - // zoom out # color theme => light+

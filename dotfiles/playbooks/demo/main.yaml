@@ -12,22 +12,13 @@
       become: true
     - role: fedora_dependencies
       become: true
-      tags: fedora_dependencies
     - role: donhector.workstation.asdf
-      tags: asdf
     - role: hostname
       become: true
-      tags: hostname
-    - role: jaredhocutt.gnome_extensions
-      tags: gnome_extensions
     - role: git_config
-      tags: git_config
     - role: jetbrains_toolbox
-      tags: jetbrains_toolbox
     - role: gnome
-      tags: gnome
     - role: commons
-      tags: commons
 
   post_tasks:
     - name: "Copy secret file"

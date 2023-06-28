@@ -5,9 +5,6 @@
 - name: Install packages
   ansible.builtin.include_tasks: packages.yaml
 
-- name: Install flatpak packages
-  ansible.builtin.include_tasks: flatpak.yaml
-
 - name: Install python pip packages
   ansible.builtin.include_tasks: python.yaml
 

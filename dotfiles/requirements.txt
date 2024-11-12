@@ -1,4 +1,4 @@
 ansible==7.7.0
 argcomplete
-cryptography==39.0.1
+cryptography==39.0.2
 MarkupSafe==2.1.5
